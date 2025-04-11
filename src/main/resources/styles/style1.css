@@ -1,0 +1,15 @@
+/* style.css */
+
+.button {
+    -fx-background-color: #007BFF;  /* Синий цвет */
+    -fx-text-fill: white;           /* Белый текст */
+    -fx-background-radius: 8px;     /* Скругление */
+    -fx-padding: 10 20;             /* Отступы внутри */
+    -fx-font-size: 14px;            /* Размер шрифта */
+    -fx-cursor: hand;               /* Курсор-рука при наведении */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Тёмно-синий при наведении */
+}
